@@ -1,0 +1,26 @@
+{
+    "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Gruvbox Dark Soft",
+  },
+  "languages": {
+    "Go": {
+      "format_on_save": "on",
+      "formatter": "language_server",
+    },
+  },
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "staticcheck": true,
+      },
+    },
+  },
+  "colorize_brackets": true,
+  "experimental.theme_overrides": {
+    "editor.document_highlight.read_background": "#FFCC004D",
+    "editor.document_highlight.write_background": "#FFCC0066",
+    "editor.document_highlight.bracket_background": "#FFCC0080",
+  },
+}
